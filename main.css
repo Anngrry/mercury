@@ -443,13 +443,13 @@ font-family: Montserrat;
 	display: flex;
 }
 
-.section-3 {
-	display: flex;
-	flex-direction: column;
+.footer-description {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 120px;
+	font-family: Montserrat;
 	text-align: center;
-	align-items: center;
 }
-
 
 .planet-img-2 img {
 	width: 620px;
@@ -518,8 +518,8 @@ font-family: Montserrat;
 		text-align: center;
 	}
 	.planet-img img {
-		width: 900px;
-		height: 400px;
+		width: 500px;
+		height: 500px;
 	}
 	.section-2{
 		flex-direction: column-reverse;
@@ -545,12 +545,12 @@ font-family: Montserrat;
 	}
 
 	.planet-img img {
-		width: 800px;
-		height: 350px;
+		width: 450px;
+		height: 450px;
 	}
 	.planet-img-2 img {
-		width: 800px;
-		height: 350px;
+		width: 450px;
+		height: 450px;
 	}
 }
 
@@ -566,12 +566,12 @@ font-family: Montserrat;
 	}
 
 	.planet-img img {
-		width: 800px;
-		height: 350px;
+		width: 450px;
+		height: 450px;
 	}
 	.planet-img-2 img {
-		width: 800px;
-		height: 350px;
+		width: 450px;
+		height: 450px;
 	}
 	.planet-img {
 		width: 100%;
@@ -595,31 +595,30 @@ font-family: Montserrat;
 	}
 
 	.planet-img-2 img {
-		width: 700px;
-		height: 300px;
+		width: 450px;
+		height: 450px;
 	}
 	.planet-img img {
-		width: 700px;
-		height: 300px;
+		width: 450px;
+		height: 450px;
 	}
 }
+
 @media (max-width: 800px) {
 	.container {
 		margin: 0 auto;
 		max-width: 520px;
 	}
-	body{
-        background-size: auto;
-    }
+
 	.border {
 		width: 50vw;
 	}
-	.description {
+	.description, .footer-description {
 		width: 100%;
 		text-align: justify;
-		margin-bottom: 90px;
+		margin: 0;
 	}
-	.description p{
+	.description p, .footer-description p{
 		font-size: 20px;
 	}
 	.tour-title h2 {
@@ -636,18 +635,18 @@ font-family: Montserrat;
 	}
 
 	.planet-img-2 img {
-		width: 500px;
-		height: 500px;
+		width: 300px;
+		height: 300px;
 	}
 	.planet-img img {
-		width: 500px;
-		height: 500px;
+		width: 300px;
+		height: 300px;
 	}
 	.img-path{
-		display: none !important;
+		display: none;
 	}
 	.img-path-2 {
-		display: block !important;
+		display: block  !important;
 		width: 70vw;
 		height: 90vh;
 	}
@@ -678,11 +677,7 @@ font-family: Montserrat;
 	}
 }
 
-@media (max-width: 770px) {
-    body{
-        background-size: auto;
-    }
-    
+@media (max-width: 600px) {
 	.container {
 		margin: 0 auto;
 		max-width: 400px;
@@ -691,12 +686,12 @@ font-family: Montserrat;
 	.border {
 		width: 50vw;
 	}
-	.description {
+	.description, .footer-description {
 		width: 100%;
 		text-align: justify;
-		margin-bottom: 90px;
+		margin: 0;
 	}
-	.description p{
+	.description p, .footer-description p{
 		font-size: 20px;
 	}
 	.tour-title h2 {
@@ -712,48 +707,13 @@ font-family: Montserrat;
 		font-size: 30px;
 	}
 	.planet-img-2 img {
-		width: 360px;
-		height: 360px;
+		width: 300px;
+		height: 300px;
 	}
 	.planet-img img {
-		width: 360px;
-		height: 360px;
+		width: 300px;
+		height: 300px;
 	}
-
-.img-path{
-		display: none !important;
-	}
-	.img-path-2 {
-		display: block !important;
-		width: 70vw;
-		height: 90vh;
-	}
-	.cl-btn-2 div {
-		cursor: pointer; 
-		height: 68px;
-		width: 50px;
-	}
-	.cl-btn-2 .leftright {
-		height: 4px;
-		width: 30px;
-		position: absolute;
-		margin-top: 24px;
-		background-color: grey;
-		border-radius: 2px;
-		transform: rotate(45deg);
-		transition: all .3s ease-in;
-	}
-	.cl-btn-2 .rightleft {
-		height: 4px;
-		width: 30px;
-		position: absolute;
-		margin-top: 24px;
-		background-color: grey;
-		border-radius: 2px;
-		transform: rotate(-45deg);
-		transition: all .3s ease-in;
-	}
-
 }
 
 @media (max-width: 450px) {
@@ -765,12 +725,12 @@ font-family: Montserrat;
 	.border {
 		width: 50vw;
 	}
-	.description {
+	.description, .footer-description {
 		width: 100%;
 		text-align: justify;
-		margin-bottom: 90px;
+		margin:0;
 	}
-	.description p{
+	.description p, .footer-description p{
 		font-size: 18px;
 	}
 	.tour-title h2 {
@@ -788,13 +748,12 @@ font-family: Montserrat;
 
 	.planet-img-2 img {
 		width: 300px;
-height: 300px;
+		height: 300px;
 	}
 	.planet-img img {
 		width: 300px;
-height: 300px;
+		height: 300px;
 	}
-
 	.button a{
 		font-size: 24px;
 		letter-spacing: 6px;
@@ -803,11 +762,8 @@ height: 300px;
 		width: 80vw;
 		height: 90vh;
 	}
-
-
-.img-path-2 {
-	display: none;
 }
+
 
 .btnn {
 	padding: 20px 50px;
@@ -899,11 +855,6 @@ height: 300px;
 		color: #db2e2e;
 		text-shadow: 0 0 2px #6f2525;
 		}
-}
-
-
-	
-
 
 
 .button {
