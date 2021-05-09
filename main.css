@@ -486,7 +486,6 @@ font-family: Montserrat;
     font-size: 68px;
 }
 
-
 @media (max-width: 1600px) {
 	.img-path {
 		width: 80vw;
@@ -721,7 +720,7 @@ font-family: Montserrat;
 		height: 360px;
 	}
 
-	.img-path{
+.img-path{
 		display: none !important;
 	}
 	.img-path-2 {
