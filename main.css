@@ -116,17 +116,29 @@ li {
 	right: 8vw;
 }
 .poloska2{
+	position: absolute;
 	width: 430px;
 	height: 7px;
+	background-color: white;
+	transform: rotate(-26deg) scaleX(0);
 	bottom: 35vh;
-	right: -3vw;
-}
-.poloska3{
+	right: 0;
+	z-index: 20;
+	transition: 0.2s;
+	transform-origin: right;
+	}
+	.poloska3{
+	position: absolute;
 	width: 230px;
 	height: 5px;
-	bottom: 29.5vh;
-	right: -3vw;
-}
+	background-color: white;
+	transform: rotate(-26deg) scaleX(0);
+	bottom: 25vh;
+	right: 0;
+	z-index: 20;
+	transition: 0.2s;
+	transform-origin: right;
+	}
 .poloska_active{
 	transform: rotate(-26deg) scaleX(1);
 	transition: 0.2s;
