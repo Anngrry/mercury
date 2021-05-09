@@ -727,6 +727,41 @@ font-family: Montserrat;
 		width: 360px;
 		height: 360px;
 	}
+
+	.img-path{
+		display: none !important;
+	}
+	.img-path-2 {
+		display: block !important;
+		width: 70vw;
+		height: 90vh;
+	}
+	.cl-btn-2 div {
+		cursor: pointer; 
+		height: 68px;
+		width: 50px;
+	}
+	.cl-btn-2 .leftright {
+		height: 4px;
+		width: 30px;
+		position: absolute;
+		margin-top: 24px;
+		background-color: grey;
+		border-radius: 2px;
+		transform: rotate(45deg);
+		transition: all .3s ease-in;
+	}
+	.cl-btn-2 .rightleft {
+		height: 4px;
+		width: 30px;
+		position: absolute;
+		margin-top: 24px;
+		background-color: grey;
+		border-radius: 2px;
+		transform: rotate(-45deg);
+		transition: all .3s ease-in;
+	}
+
 }
 
 @media (max-width: 450px) {
